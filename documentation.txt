@@ -1,0 +1,16 @@
+we install virtual environment 
+due to virtual env a new isolated environment is made where all the file is installed locally not globally which means we can use different package version in our diffrent projects
+
+->pip install virtualenv        ->to install venv
+->virtualenv virtualenvname     ->to make virtual env
+->source virtialenvname/bin/activate  ->activate venv
+->deactivate       ->deactivate venv
+->rm -r venvname   ->to delet venv
+
+
+
+->Note we virst go to a cetain directry
+->we make venv
+->after making venv we activate it
+->we install requirements.txt
+->after installing it we run django application
