@@ -3,13 +3,13 @@ due to virtual env a new isolated environment is made where all the file is inst
 
 ->pip install virtualenv        ->to install venv
 ->virtualenv virtualenvname     ->to make virtual env
-->source virtialenvname/bin/activate  ->activate venv
+->source virtialenvname/bin/activate  ->activate venv  =>in linux
+->virtualenvname\scripts\activate  =>in windows
 ->deactivate       ->deactivate venv
 ->rm -r venvname   ->to delet venv
 
 
-
-->Note we virst go to a cetain directry
+]
 ->we make venv
 ->after making venv we activate it
 ->we install requirements.txt
